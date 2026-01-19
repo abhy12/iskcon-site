@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes pulseSlow {
+    0%,100% {
+        box-shadow: 0 0 0 0 rgba(142, 22, 22, 0.35);
+    }
+    50% {
+        box-shadow: 0 0 0 12px rgba(142, 22, 22, 0);
+    }
+}
+
+.animate-pulseSlow {
+    animation: pulseSlow 2.8s ease-in-out infinite;
+}
