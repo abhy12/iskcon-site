@@ -9,7 +9,7 @@ import Home from './component/Home';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
